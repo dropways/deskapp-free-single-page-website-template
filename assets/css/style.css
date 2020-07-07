@@ -1,0 +1,129 @@
+/*
+Theme Name: deskapp-free-single-page-website-template
+Text Domain: deskapp-free-single-page-website-template
+Version: 1.0
+Description:
+Author: Ankit Hingarajiya
+Author URI: https://github.com/dropways
+Theme URI:
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	-webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+input[type="submit"] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+*, *:after, *:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	color: #031e23;
+}
+a {
+	outline: none;
+	text-decoration: none;
+	color: #6B6B6B;
+}
+a:hover, a:focus{
+	text-decoration:none;
+	outline:none;
+	outline-offset:0;
+}
+:focus{
+	outline: 0;
+}
+
+img {
+	border: 0;
+	max-width:100%;
+	height:auto;
+}
+input, textarea, select {
+	outline: none;
+	resize: none;
+	font-family: 'Inter', sans-serif;
+}
+::-webkit-input-placeholder{opacity:1;}
+:-moz-placeholder{opacity:1;}
+::-moz-placeholder{opacity:1;}
+:-ms-input-placeholder{opacity:1;}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+img {
+	border: 0;
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+strong{
+	font-weight: 700;
+}
+path,
+rect{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.slick-slider{
+	user-select: text;
+}
+.slick-slide,
+.slick-arrow,
+.slick-dots button{
+	outline: none !important;
+}
+
+.container{
+	max-width: 1230px;
+	width: 100%;
+}
+
+.modal{
+	z-index: 2060;
+}
+.modal-backdrop{
+	z-index: 2050;
+}
+
+.coming-soon-page{
+	background: url(../images/pattern.png) #0b132b;
+}
